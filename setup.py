@@ -6,6 +6,6 @@ setup(
     description='https://cryptocloud.plus/ api',
     author='k3l3vr444',
     author_email='ayukanov.nikita@gmail.com',
-    packages=['crypto_cloud'],  # same as name
+    packages=['crypto_cloud', 'crypto_cloud.types'],  # same as name
     install_requires=['pydantic', 'aiohttp'],  # external packages as dependencies
 )
